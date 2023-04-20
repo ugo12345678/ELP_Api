@@ -30,6 +30,8 @@ namespace Aodren.Domain.Business
             {
                 Username = request.Username,
                 Password = request.Password,
+                Mail = request.Mail,
+                Role = request.Role,
             };
             return _utilisateurManager.AddUtilisateur(utilisateurToAdd, request.Password);
         }

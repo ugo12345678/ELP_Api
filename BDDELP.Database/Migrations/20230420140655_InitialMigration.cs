@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BDDELP.Database.Migrations
+namespace Aodren.Database.Migrations
 {
     public partial class InitialMigration : Migration
     {
@@ -15,7 +15,9 @@ namespace BDDELP.Database.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Role = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Mail = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

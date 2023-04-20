@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BDDELP.Database.EntityModels
+namespace Aodren.Domain.Models
 {
-    public class Utilisateur
+    public class UtilisateurModel
     {
         public int Id { get; set; }
         public string Username { get; set; }

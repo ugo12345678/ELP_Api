@@ -1,29 +1,23 @@
-# vue-project
+# www-elp
 
-This template should help get you started developing with Vue 3 in Vite.
+> front of elp application
 
-## Recommended IDE Setup
+## Build Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+``` bash
+# install dependencies
+$ npm install # Or yarn install
 
-## Customize configuration
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# build for production and launch server
+$ npm run build
+$ npm start
 
-## Project Setup
-
-```sh
-npm install
+# generate static project
+$ npm run generate
 ```
 
-### Compile and Hot-Reload for Development
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
